@@ -67,6 +67,21 @@ export function Header() {
 
           {/* Right Side Actions */}
           <div className="flex items-center space-x-4">
+            {/* Bolt Logo */}
+            <a
+              href="https://bolt.new/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-shrink-0 hover:opacity-80 transition-opacity duration-200"
+              title="Powered by Bolt"
+            >
+              <img
+                src="/black_circle_360x360.png"
+                alt="Bolt Logo"
+                className="h-8 w-8 rounded-full"
+              />
+            </a>
+
             {/* Cart */}
             <Link 
               to="/cart" 
